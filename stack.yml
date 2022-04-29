@@ -1,0 +1,11 @@
+name: postgres
+title: PostgreSQL
+icon: postgres
+
+services:
+- name: postgres
+  title: PostgreSQL
+  service: postgres
+  volumes:
+  - name: data
+    size: 20
