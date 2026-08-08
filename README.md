@@ -5,6 +5,7 @@ Deploy PostgreSQL applications on Kubernetes with Wodby.
 This repository defines the Wodby stack manifests and default service
 composition for PostgreSQL.
 
+- [PostgreSQL stack on Wodby](https://wodby.com/stacks/postgres)
 - [Browse Wodby application stacks](https://wodby.com/stacks)
 - [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
 - [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
@@ -12,12 +13,16 @@ composition for PostgreSQL.
 ## Service definitions
 
 - [PostgreSQL service](https://github.com/wodby/service-postgres)
+- [Adminer service](https://github.com/wodby/service-adminer)
+- [pgAdmin service](https://github.com/wodby/service-pgadmin)
 
 ## What's included
 
 | Component / service | Default configuration |
 | --- | --- |
 | PostgreSQL (`postgres`)<br>`postgres` | optional; enabled by default; volumes: `data` 20 GB |
+| Adminer<br>`adminer` | optional; disabled by default; link `db` → `postgres` |
+| pgAdmin<br>`pgadmin` | optional; disabled by default; link `db` → `postgres` |
 
 Enabled optional services are selected by default but can be excluded when an
 app is created. Disabled optional services are available but not selected by
