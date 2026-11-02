@@ -11,6 +11,7 @@ composition for PostgreSQL.
 
 - [PostgreSQL stack on Wodby](https://wodby.com/stacks/postgres)
 - [Browse Wodby application stacks](https://wodby.com/stacks)
+- [PostgreSQL stack guide](https://wodby.com/docs/2.0/stacks/catalog/postgres/)
 - [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
 - [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
 
